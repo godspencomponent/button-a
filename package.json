@@ -1,7 +1,6 @@
 {
   "name": "button-a",
-  "namespace": "Luffy",
-  "label": "",
+  "label": "普通按钮",
   "version": "1.0.1",
   "description": "普通按钮",
   "private": true,
