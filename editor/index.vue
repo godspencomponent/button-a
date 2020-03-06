@@ -1,7 +1,6 @@
 <template>
   <div class="component-editor">
-    <el-card class="box-card clearfix">
-     <el-form ref="form" label-width="80px" label-position='left' size='mini'>
+    <el-form ref="form" label-width="80px" label-position='left' size='mini'>
       <el-form-item label="文字:">
         <el-input v-model="componentInfo.text" placeholder="请输入按钮文字"></el-input>
       </el-form-item>
@@ -31,7 +30,6 @@
         <span style='vertical-align: top'>{{componentInfo.borderColor}}</span>
       </el-form-item>
     </el-form>
-    </el-card>
   </div>
 </template>
 

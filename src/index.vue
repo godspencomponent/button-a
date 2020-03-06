@@ -61,6 +61,20 @@
         }
       }
     },
+    /**
+    * 编辑器配置面板内的自定义方法
+    */
+    editorMethods: {
+      jump: {
+        label: '网页跳转',
+        params: [{
+          label: '跳转地址',
+          desc: '参数详细说明：window.location.href 跳转',
+          type: 'string',
+          default: 'https://www.baidu.com'
+        }]
+      }
+    },
     computed: {
       ctext () {
         return this.scopeGet('text')
